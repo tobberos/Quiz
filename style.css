@@ -1,0 +1,75 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+background-image: url(stad.jpg);
+text-align:center;
+font-family: 'PT Sans', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*DESKTOP VERSION*/
+
+.container{
+width:50%;
+min-height: 50%;
+margin:0 auto;
+background-color: white;
+border-radius:10px; 
+}
+h1{
+padding:30px;
+}
+
+.button{
+margin-top:80px;
+color:white;
+font-size:30px;
+padding:10px;
+width:80%;
+border:none;
+border-radius: 15px;
+background-color:#4DD643;
+}
+.button:hover{
+cursor:pointer;
+background-color:#499743;
+}
+.wrapper{
+width:30%;
+margin:0 auto;
+text-align:left;
+font-size:1.2em;
+}
+#error{
+padding-top:20px;
+color:red;
+font-size:1.2em;
+}
+
+
+
+/*  MOBILE VERSION */
+
+
+@media screen and (max-width: 824px) {
+  .container{
+ width:80%;
+  }
+  .wrapper{
+  width:50%;
+  text-align: center;
+  padding-left:10px;
+  }
+  .button{
+   margin-bottom:20px;
+  }
+
+  }
